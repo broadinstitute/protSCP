@@ -1,0 +1,29 @@
+FoldX 5 (2011)
+by the FoldX Consortium 
+Jesper Borg, Frederic Rousseau, Joost Schymkowitz,
+Luis Serrano and Francois Stricher
+------------------------------------------------------
+
+PDB file analysed: batch
+Output type: BuildModel
+Pdb	SD	total energy	Backbone Hbond	Sidechain Hbond	Van der Waals	Electrostatics	Solvation Polar	Solvation Hydrophobic	Van der Waals clashes	entropy sidechain	entropy mainchain	sloop_entropy	mloop_entropy	cis_bond	torsional clash	backbone clash	helix dipole	water bridge	disulfide	electrostatic kon	partial covalent bonds	energy Ionisation	Entropy Complex
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_2	0	-0.217841	0	0	-0.0379226	0	0.0447395	-0.0525155	0	0	-0.172143	0	0	0	0	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_3	2.22757e-05	-0.423847	0	0	-0.117196	0	0.175774	-0.13926	0	0.00890506	-0.352122	0	0	0	5.16261e-05	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_4	0.00429513	-0.489548	0	0	-0.178325	0	0.177619	-0.282838	0	0.0654768	-0.272052	0	0	0	0.000570859	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_5	0.00268484	-0.484919	0	0	-0.173848	0	0.219604	-0.237701	0	0.0386032	-0.332027	0	0	0	0.000448704	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_6	0.0349485	-0.583273	0	0	-0.432616	0	0.355209	-0.67163	0.00503878	0.201265	-0.0409592	0	0	0	0.000418721	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_7	0.000338734	-0.808776	0	0	-0.431214	0	0.262432	-0.712263	0	0.246006	-0.174384	0	0	0	0.000646409	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_8	0.0280932	-0.88777	0	0	-0.675482	0	0.396028	-1.10372	0.0156969	0.389894	0.0800386	0	0	0	0.00977503	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_9	0.00127445	-0.432749	0	0	-0.234219	0	0.15139	-0.393704	0.0245703	0.0969669	-0.0890526	0	0	0	0.0112987	-0.258129	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_10	0.00337398	-0.202759	0	0	-0.0908263	0	0.216872	-0.0476684	-1.42109e-14	-1.67688e-10	-0.281137	0	0	0	1.42109e-14	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_11	2.59361e-05	-0.469919	0	0	-0.0723306	0	0.106164	-0.0872223	0	0.00227522	-0.418811	0	0	0	5.5041e-06	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_12	0.0134932	-0.400242	0	0	-0.0472157	0	0.0533861	-0.0673123	-8.52651e-15	9.16316e-11	-0.3391	0	0	0	8.52651e-15	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_13	0.00433547	-0.784708	0	0	-0.38953	0	0.226797	-0.655331	-1.42109e-14	0.219754	-0.186496	0	0	0	9.86413e-05	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_14	0.00531403	-0.397331	0	0	-0.0680923	0	0.0915604	-0.0911506	-8.52651e-15	0.00118839	-0.330837	0	0	0	8.52651e-15	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_15	0.0612608	-0.318859	-0.131221	-0.131221	-0.102031	0	0.157548	-0.117136	-1.42109e-14	0.144757	-0.144496	0	0	0	0.00494071	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_16	0.006658	-0.508949	0	0	-0.0661651	-0.00294831	0.0927476	-0.088229	0	0.00460293	-0.448958	0	0	0	0	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_17	0.0718106	-0.492921	-0.450637	-0.450637	-0.257725	5.68434e-15	0.465413	-0.312018	-1.13687e-14	0.552	-0.137267	0	0	0	0.0979513	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_18	0.0609548	-0.547173	-0.514031	-0.514031	-0.236245	0.00989413	0.509672	-0.245868	0.000114503	0.566373	-0.13367	0	0	0	0.0106189	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_19	0.0856458	-0.525521	-0.495732	-0.360488	-0.247949	0.0155326	0.374176	-0.282447	0.000845702	0.409987	-0.0458288	0	0	0	0.106382	0	0	0	0	0	0	0	0
+AF-Q7L7X3-F1-model_v3_model0_checked_Repair_20	0.00732206	-0.299824	0	0	-0.200278	0	0.218294	-0.282089	8.52651e-15	0.0731088	-0.157643	0	0	0	2.27374e-14	0	0	0	0	0	0	0.0487825	0

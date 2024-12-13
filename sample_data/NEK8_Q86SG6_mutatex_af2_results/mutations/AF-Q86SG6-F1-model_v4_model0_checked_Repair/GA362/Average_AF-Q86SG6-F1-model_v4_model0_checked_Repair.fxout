@@ -1,0 +1,29 @@
+FoldX 5 (2011)
+by the FoldX Consortium 
+Jesper Borg, Frederic Rousseau, Joost Schymkowitz,
+Luis Serrano and Francois Stricher
+------------------------------------------------------
+
+PDB file analysed: batch
+Output type: BuildModel
+Pdb	SD	total energy	Backbone Hbond	Sidechain Hbond	Van der Waals	Electrostatics	Solvation Polar	Solvation Hydrophobic	Van der Waals clashes	entropy sidechain	entropy mainchain	sloop_entropy	mloop_entropy	cis_bond	torsional clash	backbone clash	helix dipole	water bridge	disulfide	electrostatic kon	partial covalent bonds	energy Ionisation	Entropy Complex
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_2	0	3.18181	0	0	-0.152887	0	0.20321	-0.200508	1.36001	0.0144354	1.95755	0	0	0	0	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_3	0.0178297	3.67469	0	0	-0.415129	0	0.60825	-0.506987	1.50564	0.125033	2.06025	0	0	0	0.297635	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_4	0.126094	3.30639	0	0	-0.39325	0	0.54839	-0.498336	1.3608	0.14317	2.09847	0	0	0	0.0471479	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_5	0.0119897	3.62857	0	0	-0.470589	0	0.660351	-0.596863	1.45977	0.161607	2.08579	0	0	0	0.328502	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_6	0.0849399	3.06152	0	0	-0.701096	0	0.760394	-0.967476	1.36746	0.318341	2.14244	0	0	0	0.141459	0.000136061	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_7	0.412731	2.78058	0	0	-0.722845	0	0.692037	-1.02348	1.37899	0.349185	2.06145	0	0	0	0.0452482	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_8	0.0203473	3.29224	0	0	-0.292205	0	0.451706	-0.335208	1.35969	0.0849341	2.01886	0	0	0	0.0044683	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_9	0.00858002	6.90764	0	0	-0.644428	0	0.362602	-1.06422	6.05137	0.333135	1.86918	0	0	0	-1.27898e-14	-0.675171	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_10	3.13993e-05	3.42401	0	0	-0.157091	0	0.306809	-0.0854151	1.35814	0.0494751	1.95208	0	0	0	1.59558e-05	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_11	0.0138116	3.72232	0	0	-0.29939	0	0.467368	-0.340053	1.46334	0.0764602	2.02567	0	0	0	0.328924	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_12	0.0013168	3.13619	0	0	-0.430342	0	0.450582	-0.532607	1.3661	0.227453	2.02493	0	0	0	0.0300736	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_13	0.257631	3.17395	0	0	-0.364983	0	0.456601	-0.467179	1.35825	0.143418	2.00986	0	0	0	0.0379744	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_14	0.00359377	3.29311	0	0	-0.21624	0	0.34748	-0.240987	1.35715	0.0580016	1.98575	0	0	0	0.00195939	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_15	0.130834	2.97556	-0.411522	-0.411522	-0.27763	0	0.443015	-0.270049	1.35817	0.472506	2.03036	0	0	0	0.0422313	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_16	0.00377538	3.2939	0	0	-0.202555	0.00685742	0.325354	-0.225324	1.35714	0.0528768	1.97726	0	0	0	0.00229997	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_17	0.00746487	3.26467	0	0	-0.480908	0.00129259	0.603416	-0.629698	1.38467	0.19871	2.07083	0	0	0	0.116351	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_18	0.0182175	3.133	0	0	-0.651859	-0.000184236	0.746252	-0.931082	1.3857	0.321779	2.10234	0	0	0	0.160053	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_19	0.0463133	3.15396	0	0	-0.525466	0.00515004	0.593956	-0.722545	1.38725	0.219882	2.04313	0	0	0	0.1526	0	0	0	0	0	0	0	0
+AF-Q86SG6-F1-model_v4_model0_checked_Repair_20	0.00625286	3.44442	0	0	-0.183997	-2.13163e-15	0.35106	-0.169533	1.35844	0.0407765	1.99845	0	0	0	0.000436415	0	0	0	0	0	0	0.0487825	0
