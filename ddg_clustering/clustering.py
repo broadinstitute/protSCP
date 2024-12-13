@@ -72,7 +72,25 @@ def plot_clusters(gene, gene_data, metric, los_threshold, figsize=(20,5), plot_c
         plt.show()
 
 
-## EXTERNAL: PRIORITIZING SITES
+"""
+Function: prioritize_sites
+Description: Prioritize sites for clustering.
+Args:
+    [required] cluster_df: dataframe with ∆∆G values for all residues
+    [optional] type: ClusterType.LOSS_OF_STABILITY or ClusterType.GAIN_OF_STABILITY
+                    default is ClusterType.LOSS_OF_STABILITY
+    [optional] metric: Metric.SIGNIFICANCE or Metric.THRESHOLD
+                    default is Metric.SIGNIFICANCE
+    [optional, used for SIGNIFICANCE] pvalue: p-value cutoff, default is 0.05
+    [optional, used for SIGNIFICANCE] distribution: distribution to fit, default is stats.gengamma
+    [optional, used for THRESHOLD] cutoff: number of mutations above cutoff for a 
+                    residue to be prioritized, default is 15. Select 1-19.
+                    For example, if cutoff=15, then a residue is prioritized if
+                    there are 15 or more mutations at a residue index that have a
+                    ∆∆G value above the cutoff (L123P, L123Q, L123C, L123F, etc.)
+Returns:
+    prioritized_sites: dataframe with prioritized sites
+"""
 def prioritize_sites(gene_data, pvalue=0.05, distribution=None, metric=None, type=ClusterType.LOSS_OF_STABILITY, cutoff=15):
     LoS = (type == ClusterType.LOSS_OF_STABILITY)
 
@@ -113,7 +131,18 @@ def prioritize_sites(gene_data, pvalue=0.05, distribution=None, metric=None, typ
     return over_cutoff
 
 
-## EXTERNAL: CLUSTERING PRIORITIZED SITES
+"""
+Function: cluster_prioritized_sites
+Description: Cluster prioritized sites.
+Args:
+    [required] prioritized_sites: dataframe with prioritized sites to cluster
+    [required] cluster_df: dataframe with ∆∆G values for all residues and x,y,z coordinates
+                (from Protein Structure data) for 3D clustering
+    [optional] min_cluster_size: minimum cluster size, default is 5
+    [optional] distance_threshold: distance threshold for clustering, default is 6 (Angstroms)
+Returns:
+    clusters: list of clusters
+"""
 def cluster_prioritized_sites(prioritized_sites, gene_data, distance_threshold=6, min_cluster_size=5):
     xyz = prioritized_sites[['xca', 'yca', 'zca']].values
 
@@ -148,7 +177,15 @@ def cluster_prioritized_sites(prioritized_sites, gene_data, distance_threshold=6
     return new_gene_data, cluster_sizes
 
 
-## EXTERNAL: SAVING CLUSTERS
+"""
+Function: save_clusters
+Description: Save clusters to a CSV file.
+Args:
+    [required] filename: filename to save clusters
+    [required] clusters: list of clusters
+Returns:
+    None
+"""
 def save_clusters(output_filename, cluster_output, keep_aa=False):
     case_clusters = cluster_output[0]
 

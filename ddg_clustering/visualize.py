@@ -6,7 +6,20 @@ from scipy import stats
 import numpy as np
 from .clustering import ClusterType, Metric
 import matplotlib.colors as mcolors
-# DDG HEATMAP
+
+
+""" 
+Function: ddg_heatmap
+Description: Visualize ∆∆G values on a heatmap of mutational landscape.
+Args:
+    [required] gene: gene name
+    [required] cluster_df: dataframe with ∆∆G values for all residues
+    [optional] chain: chain to visualize, default is A
+    [optional] start: start residue to visualize, default is 1
+    [optional] end: end residue to visualize, default is last residue
+Returns:
+    None
+"""
 def ddg_heatmap(gene, gene_data, chain='A', start=None, end=None):
     df = gene_data
 
@@ -51,7 +64,20 @@ def ddg_heatmap(gene, gene_data, chain='A', start=None, end=None):
 
     plt.show()
 
-## VISUALIZE THRESHOLD HITS
+
+""" 
+Function: visualize_threshold_hits
+Description: Distribution of ∆∆G values with threshold shown.
+Args:
+    [required] gene: gene name
+    [required] cluster_df: dataframe with ∆∆G values for all residues
+    [optional] cluster_type: ClusterType.LOSS_OF_STABILITY or ClusterType.GAIN_OF_STABILITY
+    [optional] metric: Metric.SIGNIFICANCE or Metric.THRESHOLD
+    [optional, used for SIGNIFICANCE] pvalue: p-value cutoff, default is 0.05
+    [optional, used for SIGNIFICANCE] distribution: distribution to fit, default is stats.gengamma
+Returns:
+    None
+"""
 def visualize_threshold_hits(gene, clust_df, cluster_type=ClusterType.LOSS_OF_STABILITY, metric=Metric.SIGNIFICANCE,
                               pvalue=0.05, distribution=stats.gengamma):
 
@@ -94,7 +120,17 @@ def visualize_threshold_hits(gene, clust_df, cluster_type=ClusterType.LOSS_OF_ST
     plt.show()
 
 
-## VISUALIZE CLUSTERS ON SEQUENCE
+"""
+Function: visualize_clusters_on_sequence
+Description: Categorically color clusters on sequence.
+Args:
+    [required] gene: gene name
+    [required] cluster_results_df: final dataframe with cluster column and cluster index for each residue
+    [optional] cluster_type: ClusterType.LOSS_OF_STABILITY or ClusterType.GAIN_OF_STABILITY
+                    default is ClusterType.LOSS_OF_STABILITY
+Returns:
+    None
+"""
 def visualize_clusters_on_sequence(gene, gene_data, cluster_type=ClusterType.LOSS_OF_STABILITY):
         top_clusters = gene_data[gene_data['cluster'].notnull()]
 

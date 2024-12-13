@@ -23,6 +23,7 @@ See the recommended configuration used in the study, [attached](foldx_cfg/).
 
 
 ### Stage 2: Parsing raw FoldX data and Protein Structure data
+In [find_clusters.ipynb](find_clusters.ipynb), results can be extracted from a path directly to a pandas dataframe for downstream analysis. See 2a, 2b, and 2c for details and commandline usage.
 
 #### 2a: FoldX
 ##### Single Gene/Structure
