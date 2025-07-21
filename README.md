@@ -1,4 +1,4 @@
-# USK Clustering Pipeline
+# ProtSCP - Protein Stability Clustering Pipeline
 The clustering pipeline allows any user to identify gain-of-stability and loss-of-stability clusters of interest from an in-silico saturation mutagenisis screening.  
 
 First, the raw ∆∆G outputs are computed through the mutategenisis screening, and then all required data is merged for further processing. 
