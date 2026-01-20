@@ -13,8 +13,7 @@ def download_structure(uniprot_id):
     if response.status_code == 200:
         return response.text
     else:
-        print("Failed to download structure. Please check the UniProt ID and try again.")
-        exit()
+        raise RuntimeError("Failed to download structure. Please check the UniProt ID and try again.")
 
 def parse_structure(cif_data):
     parser = MMCIFParser()
