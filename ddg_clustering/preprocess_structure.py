@@ -8,7 +8,7 @@ from Bio.Data.PDBData import protein_letters_3to1
 
 
 def download_structure(uniprot_id):
-    url = f"https://alphafold.ebi.ac.uk/files/AF-{uniprot_id}-F1-model_v4.cif"
+    url = f"https://alphafold.ebi.ac.uk/files/AF-{uniprot_id}-F1-model_v6.cif"
     response = requests.get(url)
     if response.status_code == 200:
         return response.text
