@@ -19,7 +19,11 @@ Finally, the pipeline computes clusters by clustering on the gain-of-stability a
 1. Install the [FoldX](https://foldxsuite.crg.eu/) binary (currently for FoldX5) and the PDB or PDBs.
 2. Install [MutateX](https://www.github.com/elelab/mutatex)
 3. Use MutateX with FoldX's BuildModel command (Repair step recommended) to compute FoldX values.
-See the recommended configuration used in the study, [attached](foldx_cfg/).
+See the recommended configuration used in the study, [attached](mutagenesis_workflow/foldx_cfg/).
+
+##### Running MutateX on GCP (required prerequisites)
+- **Custom GCP image required**: `mutagenesis_workflow/launch_mutatex_on_gcp.sh` expects you to launch a VM from a pre-built Compute Engine image that already has **MutateX installed** (and its dependencies) so the startup script can run it.
+- **FoldX must be installed on the VM**: you must install the **FoldX binary for the current licensed year (2026)** on the machine (or bake it into the image) and ensure it is available to MutateX at runtime (e.g., via `FOLDX_PATH` / `PATH`).
 
 
 #### Stage 1.2: Parsing raw FoldX data and Protein Structure data
@@ -87,7 +91,7 @@ Click on the cluster row label to map the cluster data from the protein sequence
 <img src="./sample_screenshots/08results.png" style="height:360px;width:600px">
 
 
-## Details (MutateX operation) (Config files in foldx_cfg dir)
+## Details (MutateX operation) (Config files in mutagenesis_workflow/foldx_cfg dir)
 
 mutation_list.txt
 ```
